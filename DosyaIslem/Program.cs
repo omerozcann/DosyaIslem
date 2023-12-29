@@ -47,6 +47,14 @@ namespace DosyaIslem
              */
             //File.Delete("d:\\kayit.txt");
             // kayit.txt dosyasını kalıcı olarak sil.
+             /*
+              6-)Metin türündeki verilerin öncekini silmeden dosyaya yazılması
+              */
+             //String abc;
+             //abc = "Merhaba";
+             //File.AppendAllText("d:\\kayit.txt", abc);
+             //kayit.txt dosyasına abc değişkenini yazar. Ancak daha önceden
+             //kayit.txt dosyası varsa silmez üzerine ekler
         }
     }
 }
